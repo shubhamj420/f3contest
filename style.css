@@ -1,0 +1,29 @@
+button{
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+#map{
+    height: 60vh;
+    width: 70vw;
+    position: relative;
+    left: 15%;
+}
+.groupBtn{
+    position: relative;
+    display: flex;
+    left: 30%;
+    gap: 2vw;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
